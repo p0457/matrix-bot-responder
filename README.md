@@ -1,6 +1,6 @@
 # matrix-bot-responder
 
-A matrix bot to respond with specific statements to specific statements.
+A matrix bot that responds to specific matching text. Matches are simple and non-complex.
 
 # Usage
 
