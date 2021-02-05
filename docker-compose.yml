@@ -1,0 +1,8 @@
+# docker-compose up `service-name` to build
+
+version: '1'
+
+services:
+  matrix-bot-responder:
+    image: matrix-bot-responder:latest
+    container_name: matrix-bot-responder
