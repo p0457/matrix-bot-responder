@@ -1,6 +1,6 @@
 {
   "name": "matrix-bot-responder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A matrix bot to respond with specific statements to specific statements",
   "main": "./lib/index.js",
   "author": "Thomas Gardner",
