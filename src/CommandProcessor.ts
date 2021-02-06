@@ -9,7 +9,7 @@ export class CommandProcessor {
 
     public tryCommand(roomId: string, event: any): Promise<any> {
         if (!config.respond_to || config.respond_to.length === 0) {
-            return this.sendHtmlReply(roomId, event, "RespnderBot is misconfigured");
+            return this.sendHtmlReply(roomId, event, "ResponderBot is misconfigured");
         }
 
         const message = event['content']['body'];
