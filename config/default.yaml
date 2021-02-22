@@ -8,11 +8,20 @@ caseSensitive: false
 
 # match_types = [starts,strict,anywhere]
 respond_to:
-  - term: "!popcorn"
-    response: ""
+  - term: "!shrug"
+    response: "¯\\_(ツ)_/¯"
     match_type: "strict"
-  - term: "!witchcraft"
-    response: ""
+  - term: "!tableflip"
+    response: "(╯°□°）╯︵ ┻━┻"
+    match_type: "strict"
+  - term: "!tableunflip"
+    response: "┬─┬ ノ( ゜-゜ノ)"
+    match_type: "strict"
+  - term: "!lenny"
+    response: "( ͡° ͜ʖ ͡°)"
+    match_type: "strict"
+  - term: "!lookofdisapproval"
+    response: "ಠ_ಠ"
     match_type: "strict"
 
 # Settings for controlling how logging works
